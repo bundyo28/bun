@@ -1,5 +1,3 @@
-
-Code
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
 <HTML>
@@ -488,36 +486,21 @@ var ParticlePool = (function() {
 
   }
 
- 
 
   // handle (re-)sizing of the canvas
 
   function onResize() {
-
     canvas.width  = canvas.clientWidth;
-
     canvas.height = canvas.clientHeight;
-
   }
 
   window.onresize = onResize;
-
- 
-
   // delay rendering bootstrap
-
   setTimeout(function() {
-
     onResize();
-
     render();
-
   }, 10);
-
 })(document.getElementById('pinkboard'));
-
   </script>
-
  </BODY>
-
 </HTML>
